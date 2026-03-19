@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Special Photos - Option 2</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            margin: 0; 
+            padding: 20px; 
+            background: #0a0a1a; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            color: #e0e0e0;
+        }
+        h1 { 
+            color: #FFD700; 
+            text-align: center; 
+            margin-bottom: 30px; 
+            text-shadow: 0 0 20px #FFD700;
+            font-size: clamp(1.8rem, 5vw, 2.5rem);
+        }
+        .row {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            max-width: 95vw;
+            margin-bottom: 20px;
+        }
+        .row img {
+            flex: 1;
+            max-width: 45vw;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(255,215,0,0.3);
+            border: 3px solid #FFD700;
+        }
+        @media (max-width: 768px) {
+            .row {
+                flex-direction: column;
+                align-items: center;
+            }
+            .row img {
+                max-width: 90vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>🌙 Special Photos - SRABONI 🌙</h1>
+    <div class="row">
+        <img src="file:///G:/Ayan ga pasa/BG pic/sr1.png" alt="Photo 1">
+        <img src="file:///G:/Ayan ga pasa/BG pic/sr2.png" alt="Photo 2">
+    </div>
+    <div class="row">
+        <img src="file:///G:/Ayan ga pasa/BG pic/sr3.png" alt="Photo 3">
+        <img src="file:///G:/Ayan ga pasa/BG pic/sr4.png" alt="Photo 4">
+    </div>
+</body>
+</html>
